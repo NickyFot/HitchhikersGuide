@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="210mm"
-   height="297mm"
-   viewBox="0 0 210 297"
+   width="167.95439mm"
+   height="91.872963mm"
+   viewBox="0 0 167.95439 91.872963"
    version="1.1"
    id="svg1"
    xml:space="preserve"
@@ -26,31 +26,31 @@
      inkscape:document-units="mm"
      showguides="true"
      inkscape:zoom="1.1893044"
-     inkscape:cx="516.26816"
-     inkscape:cy="199.27615"
-     inkscape:window-width="1808"
-     inkscape:window-height="1027"
-     inkscape:window-x="1552"
+     inkscape:cx="141.67946"
+     inkscape:cy="116.45463"
+     inkscape:window-width="1440"
+     inkscape:window-height="762"
+     inkscape:window-x="0"
      inkscape:window-y="25"
      inkscape:window-maximized="0"
      inkscape:current-layer="layer1"><sodipodi:guide
-       position="66.740692,277.86768"
+       position="46.718485,296.80349"
        orientation="0,-1"
        id="guide1"
        inkscape:locked="false" /><sodipodi:guide
-       position="20.022207,192.88452"
+       position="-3.1266742e-07,211.82033"
        orientation="1,0"
        id="guide2"
        inkscape:locked="false" /><sodipodi:guide
-       position="187.76381,179.98132"
+       position="167.7416,198.91713"
        orientation="1,0"
        id="guide3"
        inkscape:locked="false" /><sodipodi:guide
-       position="99.570052,186.19123"
+       position="79.547845,205.12704"
        orientation="0,-1"
        id="guide4"
        inkscape:locked="false" /><sodipodi:guide
-       position="91.872563,266.66036"
+       position="71.850356,285.59617"
        orientation="1,0"
        id="guide12"
        inkscape:locked="false" /></sodipodi:namedview><defs
@@ -197,7 +197,8 @@
          id="path37-0-6" /></clipPath></defs><g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1"><g
+     id="layer1"
+     transform="translate(-20.022207,-18.93581)"><g
        transform="matrix(0.02544965,0,0,0.02544979,96.692742,41.135668)"
        id="g17-9"
        clip-path="url(#clipPath204-64)"><clipPath
@@ -525,7 +526,7 @@
        height="3.0509734"
        x="133.64618"
        y="33.661938" /><rect
-       style="fill:#cd3c3c;fill-opacity:0.1902439;stroke-width:0.318229"
+       style="fill:#cd3c3c;fill-opacity:0.190244;stroke-width:0.318229"
        id="rect12-9-8"
        width="13.467136"
        height="3.0644646"
