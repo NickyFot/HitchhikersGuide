@@ -1,0 +1,19 @@
+debug: False
+DDP: True
+wandb:
+   log: True
+   model_basename: CLIP_finetuned
+   log_dir: logs
+model:
+    architecture: CLIP
+    prompts: prompts/blip_prompts.yaml
+    peft_weights: logs/checkpoints/2024-06-18_CLIP_ff_baseline_FF++/models/
+training:
+    iterations: null
+    batch_size: 16 # sheduler warmup step. Percentage of the total steps that will be for warmup
+dataset:
+    root: /project/home/p200249/nfoteinopoulou/FaceForensics++/c0/ #/mnt/isilon/nfoteinopoulou/FaceForensics++/c0/ #/mnt/isilon/projects/sigcom_cv/nfoteinopoulou/FaceForensics++/c0/  ## iris
+    dataset_name: FF++
+    binary: True
+image:
+    input_shape: 224

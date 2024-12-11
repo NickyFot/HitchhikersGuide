@@ -1,0 +1,12 @@
+q1:
+  template: "Is this image {}? a) Yes b) No"
+  synonyms:
+    - manipulated
+    - deepfake
+    - synthetic
+    - altered
+    - fabricated
+    - face forgery
+    - falsified
+q2: "Explain briefly what area of this image is {}?"
+q3: "Of the areas in the list {}, which ones are {}?"

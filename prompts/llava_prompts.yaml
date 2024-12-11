@@ -1,0 +1,12 @@
+q1:
+  template: "USER: <image>\nIs this image {}? a) Yes b) No\nASSISTANT:"
+  synonyms:
+    - manipulated
+    - deepfake
+    - synthetic
+    - altered
+    - fabricated
+    - face forgery
+    - falsified
+q2: "USER: <image>\nExplain briefly what area of this image is {}?\nASSISTANT:"
+q3: "USER: <image>\nOf the areas in the list {}, which ones are {}?\nASSISTANT:"

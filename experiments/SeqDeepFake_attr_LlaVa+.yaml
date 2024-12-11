@@ -1,0 +1,20 @@
+debug: False
+DDP: True
+wandb:
+   log: True
+   model_basename: Llava_finetunedGMM
+   log_dir: logs
+training:
+    batch_size: 8
+    iterations: null
+model:
+    architecture: LlaVa+
+    prompts: prompts/llava_prompts.yaml
+    peft_weights: logs/checkpoints/2024-07-12_CLIP_ff_lora32_gmm_FF++/models/
+dataset:
+    root: /project/home/p200249/nfoteinopoulou/SeqDeepFake/
+    dataset_name: SeqDeepFake
+    binary: False
+    attributes: True
+image:
+    input_shape: 224

@@ -1,0 +1,18 @@
+debug: False
+DDP: True
+wandb:
+   log: True
+   model_basename: CLIP_zs_baseline
+   log_dir: logs
+model:
+    architecture: CLIP
+    prompts: prompts/blip_prompts.yaml
+training:
+    iterations: null
+    batch_size: 16 # sheduler warmup step. Percentage of the total steps that will be for warmup
+dataset:
+    root: /project/home/p200249/danguyen/DFDC #/mnt/isilon/nfoteinopoulou/DFDC/ #/mnt/isilon/projects/sigcom_cv/nfoteinopoulou/FaceForensics++/c0/  ## iris
+    dataset_name: DFDC
+    binary: True
+image:
+    input_shape: 224

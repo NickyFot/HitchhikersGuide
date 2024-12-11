@@ -1,0 +1,18 @@
+debug: False
+DDP: False
+wandb:
+   log: True
+   model_basename: GPT4
+   log_dir: logs
+model:
+    architecture: GPT4
+    prompts: prompts/blip_prompts.yaml
+training:
+    batch_size: 1
+dataset:
+    root: /project/home/p200249/nfoteinopoulou/SeqDeepFake/
+    dataset_name: SeqDeepFake
+    binary: False
+    attributes: False
+image:
+    input_shape: 150

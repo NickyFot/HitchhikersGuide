@@ -1,0 +1,19 @@
+debug: False
+DDP: True
+wandb:
+   log: True
+   model_basename: InBlipxxl_zs_baseline_components
+   log_dir: logs
+training:
+    batch_size: 32
+    iterations: null
+model:
+    architecture: InBLIPxxl
+    prompts: prompts/inblip_prompts.yaml
+dataset:
+    root: /project/home/p200249/nfoteinopoulou/SeqDeepFake/
+    dataset_name: SeqDeepFake
+    binary: False
+    attributes: False
+image:
+    input_shape: 224

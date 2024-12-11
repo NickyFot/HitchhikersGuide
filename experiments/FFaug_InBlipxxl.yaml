@@ -1,0 +1,17 @@
+debug: False
+DDP: True
+wandb:
+   log: True
+   model_basename: InBlipxxl_zs_baseline
+   log_dir: logs
+training:
+    batch_size: 6
+model:
+    architecture: InBLIPxxl
+    prompts: prompts/inblip_prompts.yaml
+dataset:
+    root: /project/home/p200249/nfoteinopoulou/augmented_dataset_from_hpc/
+    dataset_name: augFF
+    binary: False
+image:
+    input_shape: 224

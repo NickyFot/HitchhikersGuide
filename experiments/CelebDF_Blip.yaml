@@ -1,0 +1,18 @@
+debug: False
+DDP: True
+wandb:
+   log: True
+   model_basename: BLIP2_zs_baseline
+   log_dir: logs
+model:
+    architecture: BLIP
+    prompts: prompts/blip_prompts.yaml
+training:
+    iterations: null
+    batch_size: 16 # sheduler warmup step. Percentage of the total steps that will be for warmup
+dataset:
+    root: /project/home/p200249/nfoteinopoulou/cdf #/mnt/isilon/projects/sigcom_cv/nfoteinopoulou/FaceForensics++/c0/  ## iris
+    dataset_name: CelebDF
+    binary: True
+image:
+    input_shape: 224
