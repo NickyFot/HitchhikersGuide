@@ -48,12 +48,11 @@ The authors gratefully acknowledge the LuxProvide teams for their expert support
 ## Citation
 
 ```bibtex
-@misc{foteinopoulou2024hitchhikersguidefinegrainedface,
-      title={A Hitchhikers Guide to Fine-Grained Face Forgery Detection Using Common Sense Reasoning}, 
-      author={Niki Maria Foteinopoulou and Enjie Ghorbel and Djamila Aouada},
-      year={2024},
-      eprint={2410.00485},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2410.00485}, 
+@inproceedings{NEURIPS2024_foteinopoulou,
+ author = {Foteinopoulou, Niki M and Ghorbel, Enjie and Aouada, Djamila},
+ booktitle = {Advances in Neural Information Processing Systems},
+ pages = {2943--2976},
+ title = {A Hitchhiker\textquotesingle s Guide to Fine-Grained Face Forgery Detection Using Common Sense Reasoning},
+ volume = {37},
+ year = {2024}
 }
